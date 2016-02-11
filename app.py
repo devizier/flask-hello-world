@@ -11,7 +11,7 @@ app.config["DEBUG"] = True
 @app.route('/')
 @app.route('/hello')
 def hello_world():
-    return "Hello, World!"
+    return "Hello, World!!!"
 
 # dynamic route
 @app.route('/test/<search_query>')
